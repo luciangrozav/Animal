@@ -10,6 +10,13 @@ public class Animall {
     private String favoriteActivityName;
     private String favoriteFoodName;
 
+    public void expressJoy()  //initiere metoda expressJoy
+    {
+        if(happinessLevel==10)
+        System.out.println(getName() + " is feeling good!");
+        else System.out.println(getName() + " is OK but not wonderful!");
+    }
+
     public String getName()  //
     {
         return name;

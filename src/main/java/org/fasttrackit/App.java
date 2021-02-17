@@ -42,5 +42,17 @@ public class App
         owner.feed(animal, food);
         owner.entertain(animal, activity);
 
+        Animall dog = new Dog();
+        dog.setName("Bobby");
+        dog.setHappinessLevel(10);
+        dog.expressJoy();
+        if(dog instanceof Dog)
+        ((Dog)dog).sleeping();  // polimorfism
+
+        Animall fish = new Fish();
+        fish.setName("CLaudiu");
+        fish.setHappinessLevel(9);
+        fish.expressJoy();
+
     }
 }

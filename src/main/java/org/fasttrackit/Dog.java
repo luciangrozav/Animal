@@ -13,4 +13,14 @@ public class Dog extends Animall{
     {
         this.barkPower = barkPower;
     }
+
+    public void sleeping(){
+        System.out.println(getName() + " is sleeping well!");
+    }
+
+    @Override
+    public void expressJoy() {
+        super.expressJoy();
+    }
 }
+

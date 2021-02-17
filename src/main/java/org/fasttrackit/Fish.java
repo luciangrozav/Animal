@@ -15,4 +15,9 @@ public class Fish extends Animall {
     }
 
 
+    @Override
+    public void expressJoy() {
+        super.expressJoy();
+    }
 }
+
