@@ -4,10 +4,11 @@ public class Activity {
 
     private String name;
 
-    public Activity (String name)
-    {
-        this.name = name;
-    }  //constructor
+//    public Activity (String name)
+//    {
+//        this.name = name;
+//    }  //constructor
+
     public String getName()
     {
         return name;

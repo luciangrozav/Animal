@@ -10,10 +10,12 @@ public class AnimalFood {
     private boolean inStock;
     private LocalDateTime expiryDate;
 
-    public AnimalFood (String name)  // constructor
-    {
-        this.name = name;
-    }
+//    public AnimalFood (String name)  // constructor
+//    {
+//        this.name = name;
+//    }
+
+
     public String getName()
     {
         return name;
